@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kaushan+Script&display=swap" rel="stylesheet">
+    <script src="./mainscript.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="container">
+            <h1 class="logo">Be Smart</h1>
+            <ul class="ul-style">
+                <li class="nav-item"> <a href="#home">Home</a></li>
+                <li class="nav-item"> <a href="#todo01">Todo</a></li>
+                <li class="nav-item"> <a href="#sign-up01">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="headline">
+            <h2 id="main-heading">Manage your tasks <span style="display: none;">I am hidden</span></h2>
+            <button class="btn btn-headline" >Learn More</button>
+        </div>
+    </header>
+    <section class="todo-section container" id="todo01">
+    <h2>Your plan for today!</h2>
+    <form class="form-sec" action="">
+      
+          <div>
+             <input class="input" type="text" placeholder="Add todo">
+             <input type="submit" value="Add Todo">
+          </div>
+    </form>
+      <ul class="todo-list">
+        <li>
+            <p class="text">Do what u like</p>
+            <button class="todo-btn done">Done</button>
+            <button class="todo-btn remove">Remove</button>
+        </li>
+
+        
+        
+      </ul>
+
+    </section>
+    <section class="sign-up" id="sign-up01">
+        <h2>Sign-up</h2>
+   <form class="form-section-01" action="">
+
+
+
+    <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+     </div>
+   
+     <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+     </div>
+
+     <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="text" name="confirmPassword" id="confirmPassword">
+     </div>
+
+     <div class="form-group">
+        <label for="phone">Phone</label>
+        <input type="text" name="phone" id="phone">
+     </div>
+
+     <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+     </div>
+
+     <div class="form-group">
+        <label for="about">About Yourself</label>
+        <textarea name="about" id="about" cols="30" rows="10">...</textarea>
+     </div>
+     <button type="submit" class="btn1">Submit</button>
+</form>
+    </section>
+
+</body>
+</html>

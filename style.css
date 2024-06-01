@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+     font-family: "Poppins", sans-serif;
+     color: white;
+     font-size: 18px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    min-height: 70vh;
+    background-image: url("./bg-image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    background-color: rgb(90, 9, 176);
+    padding: 5px 9px 5px 9px;
+    border-radius: 4px;
+    box-shadow: 11px 11px 7px rgb(32, 30, 30);
+    font-weight: 600;
+}
+.container{
+    max-width: 1200px;
+   
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   padding-top: 12px;
+}
+.container h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+}
+.ul-style{
+    width: 40%;
+    min-width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.headline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: ;
+}
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-headline{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    color: white;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman';
+}
+.todo-section{
+    margin-top: 5rem;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.todo-list li input{
+    outline: none;
+    height: 2rem;
+    font-weight: bold;
+   padding-left: 10px;
+   padding-right: 10px;
+    vertical-align: middle;
+    font-size: 1rem;
+}
+.todo-list li button{
+    outline: none;
+    height: 2rem;
+    font-weight: bold;
+   padding-left: 10px;
+   padding-right: 10px;
+    vertical-align: middle;
+    font-size: 1rem;
+}
+.todo-list li{
+    list-style: none;
+}
+.bg-dark{
+    background: red;
+    color: white;
+}
+.form-sec{
+  display: block;
+ 
+}
+.form-sec input{
+    outline: none;
+    height: 2rem;
+    font-weight: bold;
+   padding-left: 10px;
+   padding-right: 10px;
+    vertical-align: middle;
+    font-size: 1rem;
+    
+}
+.text{
+    border: 1px solid gray;
+    width: 175px;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: start;
+}
+.sign-up{
+    color: black;
+    text-align: center;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.form-group input{
+    height: 2rem;
+    width: 30rem;
+    outline: none;
+    font-size: 1.3rem ;
+   
+}
+.form-group label{
+    display: block;
+ 
+}
+.btn{
+    padding: 5px 15px 5px 15px;
+    background-color: red;
+    font-size: 1rem;
+    margin-bottom: 10rem;
+    display: block;
+   width: 30rem;
+   border-radius: 12px;
+}
+.form-section-01{
+    max-width: 800px;
+    margin: auto;
+    text-align: left;
+    box-shadow: 1px 1px 8px rgba(128, 128, 128, 0.258);
+    margin-top: 12px;
+    padding-top: 12px;
+    
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+.form-section-01 input{
+    border: none;
+    box-shadow: 1px 1px 3.5px gray;
+    padding-left: 5px;
+}
+.form-group textarea{
+    width: 30rem;
+    outline: none;
+    padding-bottom: 12px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding-left: 5px;
+    
+}
+.form-group{
+    margin-bottom: 15px;
+}
+.btn1{
+    padding: 7px 13px 7px 13px;
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+    border:none;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
